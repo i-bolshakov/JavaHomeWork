@@ -5,7 +5,6 @@ public class CapitalLetter {
     static String[] toArray(String str) {
         return str.split(" ");
     }
-
     static String[] toUpperArray(String[] uArr) {
         String[] tempUpperArr = new String[uArr.length];
         for (int i = 0; i < uArr.length; i++) {

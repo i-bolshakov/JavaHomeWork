@@ -16,7 +16,6 @@ public class Bingo {
 
         for (; ;){
             x++;
-
             if (scan.hasNextInt()) {
                 y = scan.nextInt();
                 if (y > z){
